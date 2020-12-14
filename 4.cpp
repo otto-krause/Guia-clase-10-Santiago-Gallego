@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<conio.h>
-int main(void) {
-int a,b,c,d,e,f;
+int main(void) 
+{
+int a,b,c,d,e,f;//Variables sin inicializar
  d=0;
 e=0;
 f=0;
-float g,h,i,j;
+float g,h,i,j;//Variables sin inicializar
 g=0;
 h=0;
 char k;
@@ -16,7 +17,7 @@ for(a=b;a>0;a++){
 h=h+1;
 printf("\n ingrese su sexo M/H ");
 scanf("%s",&k);
-printf("\n ingrese su año de nacimiento ");
+printf("\n ingrese su aï¿½o de nacimiento ");
 scanf("%d",&c);
 i=2020-c;
 if(k=='M'){
