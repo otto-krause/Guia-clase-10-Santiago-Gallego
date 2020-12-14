@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main(int a, char *b[]) {
-	int c,d,e,f,g,h,i;
+int main(int a, char *b[]) //sin argumentos
+{
+	int c,d,e,f,g,h,i;//Variables sin inicializar
 	printf("ingrese la factura ");
 	scanf("%d",&c);	
-	 while (c!=999){	
+	 while (c!=999)
+	 {	
 		printf("\n ingrese la cantidad ");
 		scanf("%d",&d);
 		printf("\n ingrese el precio unitario ");
@@ -12,10 +14,12 @@ int main(int a, char *b[]) {
 		printf("\n ingrese el numero de producto ");
 		scanf("%d",&f);	
 				i=d*e;
-					if (i>h){
+					if (i>h)
+					{
 						h=i;
 					}
-				if (d>g) {
+				if (d>g) 
+				{
 					g=f;
 				}
 	printf("\n //////////////////////////////////////////////////////////");
